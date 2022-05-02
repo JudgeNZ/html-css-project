@@ -2,7 +2,7 @@
 body{
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Helvetica, sans-serif;
 }
 
 header,
@@ -13,11 +13,12 @@ footer{
 
 header{
     display: flex;
-    padding: 20px;
+    padding: 10px 100px 0px 100px;
 }
 
 .header-logo{
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul{
@@ -27,24 +28,37 @@ ul{
     padding: 0px;
     color: #E5E7EB;
     margin-left: auto;
+    gap: 20px;
 }
 
 /*HERO*/
 .hero{
     background-color: #1F2937;  
+    padding: 40px 100px 40px 100px;
     display: flex;
-    padding: 100px;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-content{
+    max-width: 1000px;
+    display: flex;
+    gap: 10px;
 }
 
 .hero-text{
     display: flex;
     flex-direction: column;
+    flex: 1;
+    flex: wrap;
+    max-width: 700px;
 }
 
 .hero-text-main{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    max-width: 700px;
 }
 
 .hero-text-secondary{
@@ -54,41 +68,85 @@ ul{
 
 .hero-button{
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
+    border: solid;
+    border: #3882F6;
+    border-radius: 4px;
+    padding: 5px 15px 3px 15px;
+    margin: 10px 0px;
+    font-weight: bold;
+    width: 90px;
 }
 
 .hero-image{
-    background-color: #fff;
+    display: flex;
+    background-color: gray;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
 }
 
 /*INFORMATION*/
 .information{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.information-content{
     display: flex;
     flex-direction: column;
+    max-width: 1000px;
+    width: 800px;
+    justify-content: center;
+    align-content: center;
 }
 
 .information-title{
     text-align: center;
-    padding: 20px;
+    padding: 0px 0px 20px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937
+    flex: 1;
 }
 
 .information-cards{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
-    padding-left: 100px;
-    padding-right: 100px;
+    flex: 1;
+    gap: 30px;
 }
 
 .information-card{
-    border: 2px solid #3882F6;
-    border-radius: 8px;
-    padding: 10px;
     font-size: 18px;
     color: #E5E7EB;
+    flex: 1;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-card-image{
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #E5E7EB;
+    height: 100px;
+    width: 100px;
+}
+
+.information-card-info{
+    padding-top: 5px;
+    width: 100px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 14px;
+    font-weight: lighter;
 }
 
 /*QUOTE*/
@@ -96,11 +154,13 @@ ul{
     background-color: #E5E7EB;
     display: flex;
     padding: 100px;
+    justify-content: center;
 }
 
 .quote-text-quote{
     display: flex;
     flex-direction: column;
+    max-width: 1000px;
 }
 
 .quote-text-main{
@@ -116,31 +176,56 @@ ul{
     font-weight: bold;
     color: #1F2937;
 }
-}
 
 /*SIGN-UP*/
 .sign-up{
     display: flex;
-    padding: 40px;
+    background-color: #Fff;
     justify-content: center;
+    align-items: center;
     margin: 100px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
 }
 
 .sign-up-callout{
     background-color: #3882F6;
     display: flex;
+    padding: 30px 40px 30px 40px; 
+    gap: 100px;
+    border-radius: 6px;
+    max-width: 700px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.sign-up-callout-text{
+    display: flex;
+    flex-direction: column;
 }
 
 .sign-up-callout-header{
-    color:#F9FAF8
+    color:#F9FAF8;
+    font-weight: bold;
 }
+
 
 .sign-up-callout-info{
     color: #E5E7EB;
 }
 
 .sign-up-callout-button{
+    border: solid;
     background-color: #3882F6;
     border-color: #F9FAF8;
     color: #F9FAF8;
+    border-radius: 4px;
+    padding: 5px 15px 3px 15px;
+    margin: 10px 0px;
+    font-weight: bold;
+    width: 90px;
 }
+
+/*Footer*/
