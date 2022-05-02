@@ -1,0 +1,146 @@
+/*SHARED*/
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+footer{
+    background-color: #1F2937;
+}
+/*HEADER*/
+
+header{
+    display: flex;
+    padding: 20px;
+}
+
+.header-logo{
+    color: #F9FAF8;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: #E5E7EB;
+    margin-left: auto;
+}
+
+/*HERO*/
+.hero{
+    background-color: #1F2937;  
+    display: flex;
+    padding: 100px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-text-main{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-text-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.hero-image{
+    background-color: #fff;
+}
+
+/*INFORMATION*/
+.information{
+    display: flex;
+    flex-direction: column;
+}
+
+.information-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+.information-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.information-card{
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/*QUOTE*/
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 100px;
+}
+
+.quote-text-quote{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text-main{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-text-by{
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
+}
+
+/*SIGN-UP*/
+.sign-up{
+    display: flex;
+    padding: 40px;
+    justify-content: center;
+    margin: 100px;
+}
+
+.sign-up-callout{
+    background-color: #3882F6;
+    display: flex;
+}
+
+.sign-up-callout-header{
+    color:#F9FAF8
+}
+
+.sign-up-callout-info{
+    color: #E5E7EB;
+}
+
+.sign-up-callout-button{
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+}
