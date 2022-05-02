@@ -38,12 +38,14 @@ ul{
     display: flex;
     justify-content: center;
     align-content: center;
+    flex-wrap: wrap;
 }
 
 .hero-content{
     max-width: 1000px;
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .hero-text{
@@ -118,7 +120,7 @@ ul{
     justify-content: space-around;
     flex-wrap: wrap;
     flex: 1;
-    gap: 30px;
+    gap: 15px;
 }
 
 .information-card{
@@ -229,3 +231,11 @@ ul{
 }
 
 /*Footer*/
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 12px;
+}
